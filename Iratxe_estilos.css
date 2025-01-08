@@ -1,0 +1,96 @@
+/* === IMPORTANTE ===
+   No modificar estos estilos, ya que son imprescindibles para
+   que la página se vea correctamente.
+   ================= */
+
+/*-- Básico ----------------------------------------------------------*/
+ul, ul li { margin: 0; padding: 0; list-style: none; }
+h1, h2, h3, p, form { margin: 0; padding: 0; }
+.clear { clear: both; }
+img { border: none; }
+/*-- Layout ----------------------------------------------------------*/
+#contenedor {
+  width: 90%;
+  max-width: 900px;
+  width: expression(document.body.clientWidth > 901? "900px": "auto");
+  margin: 0 auto;
+}
+
+#cabecera, #menu, #pie { clear: both; }
+
+/*-- Menu ------------------------------------------------------------*/
+#menu ul#menu_principal li { display: inline; float: left; margin-right: 2em; }
+
+/*-- Sección Principal -----------------------------------------------*/
+#contenido img { width: 100px; float: left; }
+
+/* === IMPORTANTE ===
+   A partir de aquí, se pueden añadir todos los estilos propios que
+   sean necesarios.
+   ================= */
+*{
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: justify;
+}
+h1{
+   font-size: 300%;
+   text-align: center;
+}
+h2{
+   font-size: 200%;
+   background-color: grey;
+   color: white;
+   padding: 0.5em 0.2em;
+   margin-bottom: 0.5em;
+}
+h2.rojo{
+ background-color: crimson;
+}
+h2.azul{
+   background-color: dodgerblue;
+}
+p{
+   margin: 1em;
+}
+strong{
+   background-color: white;
+}
+a #cabecera{
+   padding: 1em;
+}
+a #menu{
+   padding: 0.5em;
+   margin-bottom: 0.5em;
+   border-bottom: solid 3px darkgrey;
+}
+div.articulo{
+   margin-top: 1em;
+   margin-bottom: 1em;
+   padding-bottom: 1em;
+   background-color: lightgray;
+}
+a #pie{
+   margin-top: 1em;
+   padding-top: 1em;
+   border-top: dashed 1px #c5c5c5;
+   font-size: 0.8em;
+   color: #666;
+   text-align: center;
+}
+image{
+   margin-right: 1em;
+   margin-bottom: 1em;
+}
+a :link{
+ font-weight: bold;
+ color: dodgerblue;
+ text-decoration: none;
+ padding: 0.5em;
+}
+a :hover{
+   background-color: dodgerblue;
+   color: #fff;
+}
+a :visited {
+   color: #666;
+}
